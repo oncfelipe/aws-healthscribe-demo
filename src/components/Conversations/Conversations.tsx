@@ -137,7 +137,7 @@ export default function Conversations() {
             header={
                 <Header
                     variant="awsui-h1-sticky"
-                    description="View existing AWS HealthScribe conversations"
+                    description="View existing Dalila conversations"
                     counter={headerCounterText}
                     actions={
                         <ConversationsHeaderActions

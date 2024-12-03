@@ -68,7 +68,7 @@ export function DeleteConversation({
                     </SpaceBetween>
                 </Box>
             }
-            header="Delete AWS HealthScribe Conversation"
+            header="Delete Dalila Conversation"
         >
             <p>
                 Permanently delete <strong>{selectedHealthScribeJob?.[0]?.MedicalScribeJobName || ''}</strong>. You

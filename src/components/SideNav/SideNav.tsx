@@ -58,7 +58,7 @@ export default function SideNav() {
     return (
         <SideNavigation
             activeHref={`/${location.pathname.split('/')[1]}`}
-            header={{ text: 'AWS HealthScribe', href: '/' }}
+            header={{ text: 'Dalila', href: '/' }}
             items={sideNavItems}
             onFollow={(e) => {
                 e.preventDefault();
