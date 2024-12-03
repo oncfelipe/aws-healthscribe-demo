@@ -17,12 +17,10 @@ export function Overview() {
                 <SpaceBetween size={'s'}>
                     <TextContent>
                         <Box variant="p">
-                            This sample ReactJS-based web app shows the art of the possible in using AWS.
+                            Dalila Prototype Demo.
                         </Box>
                         <Box variant="p">
-                            AWS is a HIPAA-eligible service empowering healthcare software vendors to build
-                            clinical applications that automatically generate clinical notes by analyzing
-                            patient-clinician conversations.
+                            Be aware this is only for demo purpose.
                         </Box>
                     </TextContent>
                 </SpaceBetween>
