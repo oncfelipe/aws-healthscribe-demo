@@ -74,7 +74,7 @@ export default function TopPanel({
 
     function checkAudioUrl() {
         if (!jobDetails?.Media?.MediaFileUri) {
-            throw Error('Unable to find HealthScribe audio URL');
+            throw Error('Unable to find Dalila audio URL');
         }
     }
 

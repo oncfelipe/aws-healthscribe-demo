@@ -17,10 +17,10 @@ export function Overview() {
                 <SpaceBetween size={'s'}>
                     <TextContent>
                         <Box variant="p">
-                            This sample ReactJS-based web app shows the art of the possible in using AWS HealthScribe.
+                            This sample ReactJS-based web app shows the art of the possible in using AWS.
                         </Box>
                         <Box variant="p">
-                            AWS HealthScribe is a HIPAA-eligible service empowering healthcare software vendors to build
+                            AWS is a HIPAA-eligible service empowering healthcare software vendors to build
                             clinical applications that automatically generate clinical notes by analyzing
                             patient-clinician conversations.
                         </Box>
@@ -37,8 +37,8 @@ export function Highlights() {
             <Header variant="h2">Highlights</Header>
             <Container>
                 <ul>
-                    <li>Submit an audio file for AWS HealthScribe.</li>
-                    <li>View AWS HealthScribe results.</li>
+                    <li>Submit an audio file for Dalila.</li>
+                    <li>View Dalila results.</li>
                     <li>Record or generate audio.</li>
                     <li>Integration with Amazon Comprehend Medical.</li>
                 </ul>
@@ -56,7 +56,7 @@ export function Details() {
             <Container>
                 <SpaceBetween size={'s'}>
                     <Box>
-                        <b>View HealthScribe results</b>, including:
+                        <b>View Dalila results</b>, including:
                         <ul>
                             <li>Summarized clinical notes</li>
                             <li>Rich consultation transcripts</li>
@@ -67,7 +67,7 @@ export function Details() {
                     </Box>
                     <Box>
                         <b>
-                            Integrate AWS HealthScribe with{' '}
+                            Integrate AWS with{' '}
                             <Link external href="https://aws.amazon.com/comprehend/medical/">
                                 Amazon Comprehend Medical
                             </Link>

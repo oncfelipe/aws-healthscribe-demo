@@ -187,7 +187,7 @@ export default function NewConversation() {
                     type: 'success',
                     value: 100,
                     description: 'HealthScribe job submitted',
-                    additionalInfo: `Audio file successfully uploaded to S3 and submitted to HealthScribe at ${dayjs(
+                    additionalInfo: `Audio file successfully uploaded to S3 and submitted to AWS at ${dayjs(
                         startJob.MedicalScribeJob.StartTime
                     ).format('MM/DD/YYYY hh:mm A')}. Redirecting to conversation list in 5 seconds.`,
                 });
@@ -198,7 +198,7 @@ export default function NewConversation() {
                     id: `New HealthScribe Job: ${jobName}`,
                     type: 'info',
                     value: 100,
-                    description: 'Unable to confirm HealthScribe job submission',
+                    description: 'Unable to confirm AWS job submission',
                     additionalInfo: `Response from HealthScribe: ${JSON.stringify(startJob)}`,
                 });
             }
@@ -207,7 +207,7 @@ export default function NewConversation() {
                 id: `New HealthScribe Job: ${jobName}`,
                 type: 'error',
                 value: 0,
-                description: 'Submitting job to HealthScribe failed',
+                description: 'Submitting job to AWS failed',
                 additionalInfo: `Error submitting job to HealthScribe: ${(e as Error).message}`,
             });
             setIsSubmitting(false);
@@ -226,7 +226,7 @@ export default function NewConversation() {
             headerVariant={'high-contrast'}
             header={
                 <Header
-                    description="Upload your audio file to be processed by AWS HealthScribe"
+                    description="Upload your audio file to be processed by AWS"
                     variant="awsui-h1-sticky"
                 >
                     New Conversation
@@ -237,7 +237,7 @@ export default function NewConversation() {
                 header={
                     <Header
                         variant="h3"
-                        description="Note: AWS HealthScribe offers additional features not built into this demo, such as Custom Vocabulary, Content Removal, and more. This is available via the AWS console, API, or SDK."
+                        description="Note: AWS offers additional features not built into this demo, such as Custom Vocabulary, Content Removal, and more. This is available via the AWS console, API, or SDK."
                     />
                 }
             >
@@ -281,7 +281,7 @@ export default function NewConversation() {
                                         >
                                             <Popover
                                                 header="Live Recording"
-                                                content="The audio file will be submitted to AWS HealthScribe after the recording is complete. Please position your device or microphone so it can capture all conversation participants."
+                                                content="The audio file will be submitted to AWS after the recording is complete. Please position your device or microphone so it can capture all conversation participants."
                                             >
                                                 <StatusIndicator type="info">New</StatusIndicator>
                                             </Popover>

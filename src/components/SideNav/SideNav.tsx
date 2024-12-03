@@ -37,7 +37,7 @@ export default function SideNav() {
         { type: 'divider' },
         {
             type: 'link',
-            text: 'AWS HealthScribe',
+            text: 'Dalila',
             href: 'https://aws.amazon.com/healthscribe',
             external: true,
         },

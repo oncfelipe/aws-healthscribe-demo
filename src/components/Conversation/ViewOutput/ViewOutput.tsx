@@ -43,7 +43,7 @@ export default function ViewOutput({ setVisible, transcriptString, clinicalDocum
     const { appTheme } = useAppThemeContext();
 
     return (
-        <Modal size="max" onDismiss={() => setVisible(false)} visible={true} header="HealthScribe Output">
+        <Modal size="max" onDismiss={() => setVisible(false)} visible={true} header="Dalila Output">
             <Grid gridDefinition={[{ colspan: 6 }, { colspan: 6 }]}>
                 <Container header={<Header variant="h3">Transcript</Header>}>
                     <ReadOnlyAceEditor appColor={appTheme.color} value={transcriptString} />

@@ -47,7 +47,7 @@ export function ConversationHeader({ jobDetails, setShowOutputModal }: Conversat
                     >
                         Download
                     </ButtonDropdown>
-                    <Button onClick={() => setShowOutputModal(true)}>View HealthScribe Output</Button>
+                    <Button onClick={() => setShowOutputModal(true)}>View Dalila Output</Button>
                 </SpaceBetween>
             }
         >
