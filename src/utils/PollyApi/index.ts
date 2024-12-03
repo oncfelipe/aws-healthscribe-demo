@@ -28,7 +28,7 @@ export async function getAudioBlobFromPolly({ voiceId, text }: GetAudioFromPolly
     const pollyClient = await getPollyClient();
     const pollySynthesizeSpeechInput: SynthesizeSpeechCommandInput = {
         Engine: 'neural',
-        LanguageCode: 'en-US',
+        LanguageCode: 'pt-BR', // original was en-US
         OutputFormat: 'mp3',
         SampleRate: '16000',
         Text: text,
