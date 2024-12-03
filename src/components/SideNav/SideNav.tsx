@@ -34,7 +34,7 @@ export default function SideNav() {
             text: 'Settings',
             href: '/settings',
         },
-        { type: 'divider' },
+/*         { type: 'divider' },
         {
             type: 'link',
             text: 'Dalila',
@@ -52,7 +52,7 @@ export default function SideNav() {
             text: 'Amazon Web Services',
             href: 'https://aws.amazon.com',
             external: true,
-        },
+        }, */
     ];
 
     return (

@@ -226,7 +226,7 @@ export default function NewConversation() {
             headerVariant={'high-contrast'}
             header={
                 <Header
-                    description="Upload your audio file to be processed by AWS"
+                    description="Upload your audio file to be processed by Dalila"
                     variant="awsui-h1-sticky"
                 >
                     New Conversation
@@ -237,7 +237,7 @@ export default function NewConversation() {
                 header={
                     <Header
                         variant="h3"
-                        description="Note: AWS offers additional features not built into this demo, such as Custom Vocabulary, Content Removal, and more. This is available via the AWS console, API, or SDK."
+                        description="-"
                     />
                 }
             >
